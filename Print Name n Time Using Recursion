@@ -4,9 +4,8 @@ Q - Write a basic recursion program to print your name n times;
 public class Main {
     public static void printName(int i, int n){
         if(i == n) return;
-        i++;
         System.out.println("Vipin");
-        printName(i,n);
+        printName(i+1,n);
         
     }
     public static void main(String[] args) {
