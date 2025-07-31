@@ -1,0 +1,16 @@
+Q - Write a basic recursion program to print your name n times;
+
+
+public class Main {
+    public static void printName(int i, int n){
+        if(i == n) return;
+        i++;
+        System.out.println("Vipin");
+        printName(i,n);
+        
+    }
+    public static void main(String[] args) {
+        int n = 5;
+        printName(0,5);
+    }
+}
